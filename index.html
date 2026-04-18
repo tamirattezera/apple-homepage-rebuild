@@ -53,11 +53,11 @@
             <p class="hero-subtitle">Meet the latest iPhone lineup</p>
           </div>
           <div class="hero-links">
-            <a class="button first-button" href="https://www.apple.com/iphone/"
+            <a class="btn first-button" href="https://www.apple.com/iphone/"
               >Learn more</a
             >
             <a
-              class="button secondary-button"
+              class="btn secondary-button"
               href="https://www.apple.com/shop/buy-iphone"
               >Shop iPhone</a
             >
@@ -77,8 +77,8 @@
           <h2>MacBook Neo</h2>
           <p>Amazing Mac. Surprising price.</p>
           <div class="product-links">
-            <a class="mac-button third-button" href="#">Learn more</a>
-            <a class="mac-button fourth-button" href="#">Buy</a>
+            <a class="btn third-button" href="#">Learn more</a>
+            <a class="btn fourth-button" href="#">Buy</a>
           </div>
         </div>
 
@@ -92,8 +92,8 @@
           <h2>iPad air</h2>
           <p>Now supercharged by M4.</p>
           <div class="product-links">
-            <a class="iPad-button fifth-button" href="#">Learn more</a>
-            <a class="iPad-button sixth-button" href="#">Buy</a>
+            <a class="btn fifth-button" href="#">Learn more</a>
+            <a class="btn sixth-button" href="#">Buy</a>
           </div>
         </div>
         <div class="product-iPad-image">
@@ -113,7 +113,9 @@
               Developers Conference. <br />
               Join us online June 8-12
             </p>
-            <a class="promo-wwdc-button seventh-wwdc-button" href="#">Learn more</a>
+            <a class="promo-wwdc-button seventh-wwdc-button" href="#"
+              >Learn more</a
+            >
           </div>
 
           <div>
@@ -126,11 +128,13 @@
 
         <article class="promo-card promo-watch">
           <div class="product-content">
-            <img
-              class="product-logo"
-              src="assets/logos/logo.svg"
-              alt="Apple Watch Series 11"
-            />
+            <div class="product1-title">
+              <img
+                class="grid-logo"
+                src="assets/logos/logo.svg"
+                alt="Apple Watch Series 11"
+              />
+            </div>
 
             <h2 class="product-title">WATCH SERIES 11</h2>
 
@@ -139,8 +143,8 @@
             </p>
 
             <div class="product-links">
-              <a class="watch-button watch-button-series" href="#">Learn more</a>
-              <a class="watch-button watch-button-series-salles" href="#">Buy</a>
+              <a class="btn watch-button-series" href="#">Learn more</a>
+              <a class="btn watch-button-series-salles" href="#">Buy</a>
             </div>
           </div>
 
@@ -153,18 +157,17 @@
         </article>
       </section>
 
-      <!-- <section class="product product-watch">
-      
-      </section> -->
-
       <!-- Grid Section -->
       <section class="product-grid">
         <div class="grid-content">
           <article class="grid-item">
             <h2>MacBook Pro</h2>
             <p>Now with M5, M5 Pro, and M5 Max</p>
-            <a href="#">Learn more</a>
-            <a href="#">Learn more</a>
+            <div>
+              <a class="btn Mack-pro" href="#">Learn more</a>
+              <a class="btn MacBook-button-pro" href="#">Buy</a>
+            </div>
+
             <div>
               <img
                 src="assets/images/MackBook Pro.jpg"
@@ -177,10 +180,8 @@
             <h2>AirPods Pro</h2>
             <p>The world's best in-ear <br />Active Noise Cancellation</p>
             <div>
-              <ul>
-                <li><a href="#">Learn more</a></li>
-                <li><a href="#">Buy</a></li>
-              </ul>
+              <a class="btn AirPods-button" href="#">Learn more</a>
+              <a class="btn AirPods-pro-button" href="#">Buy</a>
             </div>
 
             <div>
@@ -192,23 +193,22 @@
           </article>
 
           <article class="grid-item">
-            <div>
-              <div>
-                <img src="assets/logos/logo.svg" alt="" />
+            <div class="grid-header">
+              <div class="grid-title">
+                <img class="grid-logo" src="assets/logos/logo.svg" />
+                <h2>Trade In</h2>
               </div>
-            </div>
-            <h2>Trade In</h2>
-            <p>
-              Get up to $195-$685 in credit when you trade in iPhone 13 or
-              higher.
-            </p>
-            <div>
-              <ul>
-                <li><a href="">Get your estimate</a></li>
-              </ul>
+              <p>
+                Get up to $195–$685 in credit when you trade in iPhone 13 or
+                higher.
+              </p>
             </div>
 
             <div>
+              <a class="btn trading-button" href="">Get your estimate</a>
+            </div>
+
+            <div class="AirPods">
               <img
                 src="assets/images/iPhone_Trade_In.jpeg"
                 alt="Side-by-side, hand holding iPhone 13 in silicon case with stickers on back exterior, trade-in with hand holding new iPhone box for iPhone 17 Pro"
@@ -219,14 +219,12 @@
           <article class="grid-item">
             <div>
               <div>
-                <img src="assets/logos/logo.svg" alt="" />
+                <img class="grid-logo" src="assets/logos/logo.svg" alt="" />
                 <h2>Card</h2>
                 <p>Get up to 3% Daily Cash back with every purchase.</p>
                 <div>
-                  <ul>
-                    <li><a href="#">Learn more</a></li>
-                    <li><a href="#">Apply now</a></li>
-                  </ul>
+                  <a class="btn card-button" href="#">Learn more</a>
+                  <a class="btn card-button-pur" href="#">Apply now</a>
                 </div>
               </div>
             </div>
@@ -243,15 +241,16 @@
 
       <!-- Services Section -->
       <section class="services">
+        <h2>Endless entertainment</h2>
         <div>
           <article class="service-item">
-            <h2><img src="" alt="" /></h2>
+            <h2></h2>
             <p></p>
             <p></p>
           </article>
 
           <article class="service-item">
-            <h2><img src="" alt="" /></h2>
+            <h2></h2>
             <p></p>
             <div class="service-links">
               <a href=""></a>
@@ -264,9 +263,258 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container">
+      <div>
         <section class="footer-info">
-          <p></p>
+          <div>
+            <ol>
+              <li>
+                Offer available to customers who recycle an eligible Apple
+                device (“Eligible Device”) and purchase new eligible AirPods or
+                accessories (“Promotion Product”) in the same transaction
+                between April 16, 2026 and May 16, 2026. Only at Apple Store
+                locations. Additional restrictions apply. View full terms and
+                conditions of offer
+                <a href="https://www.apple.com/promo/">here.</a>
+              </li>
+              <li>
+                Feature and service availability varies by country and region.
+                <a
+                  href="https://support.apple.com/guide/business/feature-availability-axmef1c47twq/web"
+                  >Learn more</a
+                >
+              </li>
+              <li>
+                Trade‑in values will vary based on the condition, year, and
+                configuration of your eligible trade‑in device. Not all devices
+                are eligible for credit. You must be at least the age of
+                majority to be eligible to trade in for credit or for an Apple
+                Gift Card. Trade‑in value may be applied toward qualifying new
+                device purchase, or added to an Apple Gift Card. Actual value
+                awarded is based on receipt of a qualifying device matching the
+                description provided when estimate was made. Sales tax may be
+                assessed on full value of a new device purchase. In‑store
+                trade‑in requires presentation of a valid photo ID (local law
+                may require saving this information). Offer may not be available
+                in all stores and may vary between in‑store and online trade‑in.
+                Some stores may have additional requirements. Apple or its
+                trade‑in partners reserve the right to refuse, cancel, or limit
+                quantity of any trade‑in transaction for any reason. More
+                details are available from Apple’s trade-in partner for trade‑in
+                and recycling of eligible devices. Restrictions and limitations
+                may apply.
+              </li>
+            </ol>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <span>
+                  <p>
+                    To access and use all Apple Card features and products
+                    available only to Apple Card users, you must add Apple Card
+                    to Wallet on an iPhone or iPad that supports and has the
+                    latest version of iOS or iPadOS. Apple Card is subject to
+                    credit approval, available only for qualifying applicants in
+                    the United States, and issued by Goldman Sachs Bank USA,
+                    Salt Lake City Branch.
+                  </p>
+                  <p style="padding: 0.8rem">
+                    Apple Payments Services LLC, a subsidiary of Apple Inc., is
+                    a service provider of Goldman Sachs Bank USA for Apple Card
+                    and Savings accounts. Neither Apple Inc. nor Apple Payments
+                    Services LLC is a bank.
+                  </p>
+                  <p style="padding: 0.8rem">
+                    All communications from Apple and Goldman Sachs Bank USA
+                    about Apple Card (including transactional and marketing
+                    communications) and customer service support are available
+                    in English. Certain communications about Apple Card can be
+                    viewed in another language depending on your device language
+                    settings. If you reside in the U.S. Virgin Islands, American
+                    Samoa, Guam, Northern Mariana Islands, or U.S. Minor
+                    Outlying Islands, please call Goldman Sachs at 877-255-5923
+                    with questions about Apple Card.
+                  </p>
+                </span>
+              </li>
+              <li>
+                <span>
+                  Learn more about how Apple Card applications are evaluated at
+                  <a href="https://support.apple.com/en-us/102585"
+                    >support.apple.com/kb/HT209218</a
+                  >
+                </span>
+              </li>
+              <li>
+                A subscription is required for Apple Arcade, Apple Fitness+,
+                Apple Music, and Apple TV.
+              </li>
+              <li>
+                Features are subject to change. Some features, applications, and
+                services may not be available in all regions or all languages.
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <nav>
+            <div>
+              <h3>
+                <span><strong>Shop and Learn</strong></span>
+              </h3>
+              <ul>
+                <li><a href="https://www.apple.com/store">Store</a></li>
+                <li><a href="https://www.apple.com/mac/">Mac</a></li>
+                <li><a href="https://www.apple.com/ipad/">iPad</a></li>
+                <li><a href="https://www.apple.com/iphone/">iPhone</a></li>
+                <li><a href="https://www.apple.com/watch/">Watch</a></li>
+                <li>
+                  <a href="https://www.apple.com/apple-vision-pro/">Vision</a>
+                </li>
+                <li><a href="https://www.apple.com/airpods/">AirPods</a></li>
+                <li><a href="https://www.apple.com/tv-home/">TV & Home</a></li>
+                <li><a href="https://www.apple.com/airtag/">AirTag</a></li>
+                <li>
+                  <a href="https://www.apple.com/us/shop/goto/buy_accessories"
+                    >Accessories</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.apple.com/us/shop/goto/giftcards"
+                    >Gift Cards</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>
+                <span><strong>Apple Wallet</strong></span>
+              </h3>
+              <ul>
+                <li><a href="https://www.apple.com/wallet/">Wallet</a></li>
+                <li>
+                  <a href="https://www.apple.com/apple-card/">Apple Card</a>
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-pay/">Apple Pay</a>
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-cash/">Apple Pay</a>
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-cash/">Apple Cas</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>
+                <span><strong>Account</strong></span>
+              </h3>
+              <ul>
+                <li>
+                  <a href="https://account.apple.com/"
+                    >Manage Your Apple Account</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.apple.com/us/shop/goto/account"
+                    >Apple Store Account</a
+                  >
+                </li>
+                <li><a href="https://www.icloud.com/">iCloud.com</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>
+                <span><strong>Entertainment</strong></span>
+              </h3>
+              <ul>
+                <li>
+                  <a href="https://www.apple.com/apple-one/">Apple One</a>
+                </li>
+                <li><a href="https://www.apple.com/apple-tv/">Apple TV</a></li>
+                <li>
+                  <a href="https://www.apple.com/apple-music/">Apple Music</a>
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-arcade/">Apple Arcade</a>
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-fitness-plus/"
+                    >Apple Fitness</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-news/">Apple News+</a>
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-podcasts/"
+                    >Apple Podcasts</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.apple.com/apple-books/">Apple Books</a>
+                </li>
+                <li>
+                  <a href="https://www.apple.com/app-store/">Apple Store</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div>
+            <h3>Apple Store</h3>
+            <ul>
+              <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+              <li>
+                <a href="https://www.apple.com/retail/geniusbar/">Genius Bar</a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="links-wrapper-4">
+            <h3>For Business</h3>
+            <ul>
+              <li><a href="#">Apple and Business</a></li>
+              <li><a href="#">Shop for Business</a></li>
+            </ul>
+            <h3>For Education</h3>
+            <ul>
+              <li><a href="#">Apple and Education</a></li>
+              <li><a href="#">Shop for K-12</a></li>
+              <li><a href="#">Shop for College</a></li>
+            </ul>
+            <h3>For Healthcare</h3>
+            <ul>
+              <li><a href="#">Apple and Healthcare</a></li>
+            </ul>
+            <h3>For Government</h3>
+            <ul>
+              <li><a href="#">Apple and Government</a></li>
+              <li><a href="#">Shop for veterans and Military</a></li>
+              <li><a href="#">Shop for State and Local Employes</a></li>
+              <li><a href="#">Shop for Federal Employes</a></li>
+            </ul>
+          </div>
+
+          <div class="links-wrapper-5">
+            <h3>Apple Values</h3>
+            <ul>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Environment</a></li>
+              <li><a href="#">Inclusion and Diversity</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Racial Equity and Justice</a></li>
+              <li><a href="#">Supply Chain Innovation</a></li>
+            </ul>
+            <h3>About Apple</h3>
+            <ul>
+              <li><a href="#">Newsroom</a></li>
+              <li><a href="#">Apple Leadership</a></li>
+              <li><a href="#">Career Opportunities</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Contact Apple</a></li>
+            </ul>
+          </div>
         </section>
       </div>
     </footer>
