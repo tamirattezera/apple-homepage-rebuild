@@ -1,4 +1,4 @@
-  /* Reset / Base Styles */
+/* Reset / Base Styles */
 * {
   padding: 0;
   margin: 0;
@@ -17,14 +17,27 @@ ul {
   list-style: none;
 }
 
- /* Layout Container */
+body {
+  font-family:
+    SF Pro Text,
+    SF Pro Icons,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+/* Layout Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
- /* Header Navigation */
+/* section {
+  margin-bottom: 12px;
+} */
+
+/* Header Navigation */
 .header-wrapper {
   position: sticky;
   background-color: #fff;
@@ -65,11 +78,11 @@ ul {
   padding: 0 8px;
 }
 
- /* Hero Section */
+/* Hero Section */
 .hero {
   text-align: center;
   background: #fafafa;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .hero-title {
@@ -88,7 +101,7 @@ ul {
   font-size: 2em;
 }
 
-  /* Button System */
+/* Button System */
 .btn {
   display: inline-block;
   padding: 11px 21px;
@@ -106,22 +119,22 @@ ul {
     Arial,
     sans-serif;
 }
-.first-button {
+.btn-primary {
   background: #0076df;
   color: white;
 }
 
-.secondary-button {
+.btn-secondary {
   background: #fff;
   color: #0076df;
   border: 1px solid #0076df;
 }
-.secondary-button:hover {
+.btn-secondary:hover {
   background: #0076df;
   color: #fff;
 }
 
-.secondary-button:active {
+.btn-secondary:active {
   transform: scale(0.97);
 }
 
@@ -139,7 +152,7 @@ ul {
   object-position: center;
 }
 
-  /* Product Sections */
+/* Product Sections */
 .product {
   background: #fff;
   text-align: center;
@@ -159,23 +172,28 @@ ul {
   background: #0076df;
   color: #fff;
 }
-.fourth-button {
-  background: white;
-  color: #0076df;
+.btn-outline {
   border: 1px solid #0076df;
-}
-.fourth-button:hover {
-  background: #0076df;
-  color: #fff;
+  color: #0076df;
+  background: white;
 }
 
-.fourth-button:active {
+.btn-outline:hover {
+  background: #0076df;
+  color: white;
+}
+
+.btn-outline:active {
   transform: scale(0.97);
 }
-.product-image img {
+.product-image {
   margin-top: 40px;
-  padding: 0 500px;
-  max-width: 100%;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .product-iPad-image {
   margin-top: 40px;
@@ -186,20 +204,8 @@ ul {
   background: #0076df;
   color: #fff;
 }
-.sixth-button {
-  background: #fff;
-  color: #0076df;
-  border: 1px solid #0076df;
-}
-.sixth-button:hover {
-  background: #0076df;
-  color: #fff;
-}
-.sixth-button:active {
-  transform: scale(0.97);
-}
 
- /* Promotion Section */
+/* Promotion Section */
 .promotion {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -267,24 +273,12 @@ ul {
   background: #0076df;
   color: #fff;
 }
-.watch-button-series-salles {
-  background: #fff;
-  color: #0076df;
-  border: 1px solid #0076df;
-}
-.watch-button-series-salles:hover {
-  background: #0076df;
-  color: #fff;
-}
-.watch-button-series-salles:active {
-  transform: scale(0.97);
-}
 
 .product-grid {
   width: 100%;
 }
 
-  /* Product Grid Section */
+/* Product Grid Section */
 .product-grid .grid-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -373,6 +367,10 @@ ul {
   color: #fff;
 }
 
+.AirPods img {
+  margin-top: 10px;
+}
+
 .AirPods-button {
   background: #0076df;
   color: #fff;
@@ -380,13 +378,6 @@ ul {
 .AirPods-pro-button {
   background: #fff;
   color: #0076df;
-}
-.AirPods-pro-button:hover {
-  background: #0076df;
-  color: #fff;
-}
-.AirPods-pro-button:active {
-  transform: scale(0.97);
 }
 
 .trading-button {
@@ -402,13 +393,70 @@ ul {
   background: #fff;
   color: #0076df;
 }
-.card-button-pur:hover {
-  background: #0076df;
-  color: #fff;
-}
-
-.card-button-pur:active {
-  transform: scale(0.97);
-}
 
 /* Footer Section */
+
+.site-footer {
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family:
+    "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.site-footer ul {
+  padding-bottom: 20px;
+}
+.site-footer ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footer-content {
+  margin: 0 auto;
+  width: 980px;
+  padding: 0 22px;
+}
+.footer-info {
+  border-bottom: 1px solid gray;
+  padding: 17px 0 11px;
+}
+
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+
+.upper-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+.upper-text-container a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.footer-links-wrapper a {
+  color: #515154;
+  text-decoration: none;
+}
+.footer-links-wrapper a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.my-apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 16px;
+  margin-bottom: 19px;
+}
